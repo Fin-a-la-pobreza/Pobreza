@@ -15,19 +15,19 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --primercolor: #FDAA63;
+    --segundocolor: #D5BF39;
+    --tercercolor: #F5DADF;
+    --colorclaro: rgba(253 ,  170, 99, 0.9);
+    --coloroscuro: rgba(213 , 191, 57, o.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
-    color: var(--colorclaro);
+    background: var( FDAA63);
+    color: var(FDAA63);
 }
 
 strong {
@@ -47,12 +47,12 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(F5DADF);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(FDAA63);
     text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(FDAA63) ;
 }
 
 @media (min-width: 576px) {
@@ -115,22 +115,22 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--coloroscuro);
+    background: var(F5DADF) ;
+    color: var(D5BF39) ;
 }
 
 footer {
-    color: var(--segundcolor);
+    color: var(D5BF39) ;
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundcolor);
+    color: var(D5BF39);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(D5BF39);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -141,7 +141,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--colorclaro);
+    background: var(FDAA63);
     border: none;
     border-radius: 0 0;
 }
@@ -151,7 +151,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--coloroscuro);
+    color: var(D5BF39);
 }
 
 .modal-header h4.modal-title {
