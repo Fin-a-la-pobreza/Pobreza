@@ -29,8 +29,8 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    background: var(--#3E4938);
-    color: var(--#E5E1E6);
+    background: var(--#E5E1E6);
+    color: var(--#3E4938 );
 }
 
 strong {
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-    color: var(--E5E1E6);
+    color: var(--#3E4938 );
     text-decoration: none;
 }
 
@@ -75,12 +75,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--3E4938);
+    background-color: var(--#E5E1E6 );
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--E5E1E6);
+    color: var(--#3E4938 );
 }
 
 @media (min-width: 576px) {
@@ -118,22 +118,22 @@ main {
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--3E4938);
+    background: var(--#F2827F);
+    color: var(--#E5E1E6 );
 }
 
 footer {
-    color: var(--3E4938);
+    color: var(--#E5E1E6 );
 }
 
 footer a {
     text-decoration: none;
-    color: var(--3E4938);
+    color: var(--#E5E1E6 );
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--3E4938);
+    color: var(--#E5E1E6 );
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -144,7 +144,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--3E4938);
+    background: var(--#E5E1E6 );
     border: none;
     border-radius: 0 0;
 }
@@ -154,7 +154,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--3E4938);
+    color: var(--#E5E1E6 );
 }
 
 .modal-header h4.modal-title {
