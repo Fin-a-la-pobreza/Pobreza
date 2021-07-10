@@ -42,8 +42,8 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
-    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
 }
 
 a {
