@@ -118,7 +118,7 @@ main {
 }
 
 aside {
-    background: var(--#3E4938);
+    background: var(--#F2827F);
     color: var(--#3E4938 );
 }
 
@@ -128,7 +128,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: var(--#F2827F );
+    color: var(--#3E4938);
 }
 
 footer a:hover {
@@ -144,7 +144,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--#F2827F );
+    background: var(--#colorclaro);
     border: none;
     border-radius: 0 0;
 }
@@ -154,7 +154,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--#F2827F );
+    color: var(--#coloroscuro );
 }
 
 .modal-header h4.modal-title {
