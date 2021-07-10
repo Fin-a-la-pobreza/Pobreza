@@ -18,19 +18,19 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --primercolor: #E5E1E6;
+    --segundocolor: #3E4938; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #F2827F; /* más luminoso y menos saturado que el primero */
+    --colorclaro: rgba(229, 225, 230, 0.9);
+    --coloroscuro: rgba(62, 73, 56, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    background: var(--segundocolor);
-    color: var(--colorclaro);
+    background: var(--#3E4938);
+    color: var(--#E5E1E6);
 }
 
 strong {
@@ -50,12 +50,12 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(--F2827F);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--E5E1E6);
     text-decoration: none;
 }
 
@@ -75,12 +75,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
+    background-color: var(--3E4938);
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--E5E1E6);
 }
 
 @media (min-width: 576px) {
@@ -119,21 +119,21 @@ main {
 
 aside {
     background: var(--tercercolor);
-    color: var(--coloroscuro);
+    color: var(--3E4938);
 }
 
 footer {
-    color: var(--segundcolor);
+    color: var(--3E4938);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--segundcolor);
+    color: var(--3E4938);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(--3E4938);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -144,7 +144,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--colorclaro);
+    background: var(--3E4938);
     border: none;
     border-radius: 0 0;
 }
@@ -154,7 +154,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--coloroscuro);
+    color: var(--3E4938);
 }
 
 .modal-header h4.modal-title {
