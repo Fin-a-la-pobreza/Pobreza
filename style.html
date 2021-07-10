@@ -10,25 +10,25 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #FDAA63;
-    --segundocolor: #D5BF39;
-    --tercercolor: #F5DADF;
-    --colorclaro: rgba(253 ,  170, 99, 0.9);
-    --coloroscuro: rgba(213 , 191, 57,  0,9);
+    --primercolor: #222;
+    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
+    --colorclaro: rgba(255, 255, 255, 0.9);
+    --coloroscuro: rgba(0, 0, 0, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 300;
-    background: var( FDAA63);
-    color: var(FDAA63);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    background: var(--segundocolor);
+    color: var(--colorclaro);
 }
 
 strong {
@@ -43,17 +43,17 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Dela Gothic One", cursive;
     font-weight: 400;
 }
 
 a {
-    color: var(F5DADF);
+    color: var(--tercercolor);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(FDAA63);
+    color: var(--colorclaro);
     text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(FDAA63) ;
+    color: var(--colorclaro);
 }
 
 @media (min-width: 576px) {
@@ -116,22 +116,22 @@ main {
 }
 
 aside {
-    background: var(F5DADF) ;
-    color: var(D5BF39) ;
+    background: var(--tercercolor);
+    color: var(--coloroscuro);
 }
 
 footer {
-    color: var(D5BF39) ;
+    color: var(--segundcolor);
 }
 
 footer a {
     text-decoration: none;
-    color: var(D5BF39);
+    color: var(--segundcolor);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(D5BF39);
+    color: var(--coloroscuro);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -142,7 +142,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(FDAA63);
+    background: var(--colorclaro);
     border: none;
     border-radius: 0 0;
 }
@@ -152,8 +152,9 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(D5BF39);
+    color: var(--coloroscuro);
 }
+
 
 .modal-header h4.modal-title {
     line-height: 1;
