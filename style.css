@@ -43,7 +43,7 @@ h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 a {
