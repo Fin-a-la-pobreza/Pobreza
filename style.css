@@ -20,7 +20,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 :root {
     --primercolor: #F2827F;
     --segundocolor: #3E4938; /* menos luminoso y más saturado que el primero */
-    --tercercolor: ##E5E1E6 ; /* más luminoso y menos saturado que el primero */
+    --tercercolor: #E5E1E6 ; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(229, 225, 230, 0.9);
     --coloroscuro: rgba(62, 73, 56, 0.9);
 }
@@ -29,8 +29,8 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    background: var(--#E5E1E6);
-    color: var(--#3E4938 );
+    background: var(--#3E4938);
+    color: var(--#E5E1E6 );
 }
 
 strong {
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-    color: var(--#3E4938 );
+    color: var(--#E5E1E6 );
     text-decoration: none;
 }
 
@@ -75,12 +75,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--#E5E1E6 );
+    background-color: var(--#3E4938 );
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--#3E4938 );
+    color: var(--#E5E1E6 );
 }
 
 @media (min-width: 576px) {
@@ -119,21 +119,21 @@ main {
 
 aside {
     background: var(--#F2827F);
-    color: var(--#E5E1E6 );
+    color: var(--#3E4938 );
 }
 
 footer {
-    color: var(--#E5E1E6 );
+    color: var(--#3E4938 );
 }
 
 footer a {
     text-decoration: none;
-    color: var(--#E5E1E6 );
+    color: var(--#3E4938 );
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--#E5E1E6 );
+    color: var(--#3E4938 );
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
@@ -144,7 +144,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--#E5E1E6 );
+    background: var(--# );
     border: none;
     border-radius: 0 0;
 }
@@ -154,7 +154,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--#E5E1E6 );
+    color: var(--# );
 }
 
 .modal-header h4.modal-title {
