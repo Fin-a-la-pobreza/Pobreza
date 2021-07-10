@@ -118,7 +118,7 @@ main {
 }
 
 aside {
-    background: var(--#F2827F);
+    background: var(--#3E4938);
     color: var(--#3E4938 );
 }
 
@@ -128,7 +128,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: var(--#3E4938 );
+    color: var(--#F2827F );
 }
 
 footer a:hover {
