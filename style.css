@@ -144,7 +144,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--# );
+    background: var(--#F2827F );
     border: none;
     border-radius: 0 0;
 }
@@ -154,7 +154,7 @@ footer a:hover {
 .modal-content {
     border: none;
     border-radius: 0 0;
-    color: var(--# );
+    color: var(--#F2827F );
 }
 
 .modal-header h4.modal-title {
