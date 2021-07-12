@@ -85,13 +85,13 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("Graficos/imagen-5-02.jpg");
+        background-image: url("Graficos/Untitled-5-576-01.jpg");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("Graficos/imagen-5-01.jpg");
+        background-image: url("Graficos/imagen-5-992-01.jpg");
     }
 }
 
