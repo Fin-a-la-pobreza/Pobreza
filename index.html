@@ -203,13 +203,13 @@ Este plan establece priorizar a países pobres y vulnerables, y se propuso movil
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "bars",
+                type: "line",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["1990", "2015", "2030", "Green", "Cyan", "Magenta"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
+                            label: "% Nivel de Pobreza",
+                            data: [36, 10, 36, 5, 2, 3],
                             backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
                             borderWidth: 1,
                         },
